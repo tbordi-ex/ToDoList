@@ -38,3 +38,9 @@ ToDoList with Asure functions and local server(Microsoft SQL Server Management)/
 # Jarj utana:
 API => Startup.cs + local.settings.json file kapcsolodasert felel/dependency injection... (?)
 contextben mi az az override OnModelCreating es hogyan hasznaljak
+
+---------
+Asure Storage Emulator (blop storage)
+
+https://azure.microsoft.com/en-us/features/storage-explorer/
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator 
