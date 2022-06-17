@@ -107,7 +107,7 @@ namespace ToDoList.API
             try
             {
                 ToDoItem listWithRemovedItems = await itemManager.RemoveItemAsync(id);
-                return new OkObjectResult(listWithRemovedItems);
+                return new OkResult();
             }
             catch (Exception e)
             {

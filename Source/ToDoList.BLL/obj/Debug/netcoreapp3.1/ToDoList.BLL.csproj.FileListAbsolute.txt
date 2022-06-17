@@ -11,3 +11,16 @@ d:\Sajat\___ToDoList2\ToDoList\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL
 d:\Sajat\___ToDoList2\ToDoList\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.pdb
 d:\Sajat\___ToDoList2\ToDoList\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.genruntimeconfig.cache
 d:\Sajat\___ToDoList2\ToDoList\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.csproj.AssemblyReference.cache
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.GeneratedMSBuildEditorConfig.editorconfig
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.AssemblyInfoInputs.cache
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.AssemblyInfo.cs
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.csproj.CoreCompileInputs.cache
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.dll
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.pdb
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\bin\Debug\netcoreapp3.1\ToDoList.BLL.deps.json
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\bin\Debug\netcoreapp3.1\ToDoList.BLL.runtimeconfig.json
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\bin\Debug\netcoreapp3.1\ToDoList.BLL.runtimeconfig.dev.json
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\bin\Debug\netcoreapp3.1\ToDoList.BLL.dll
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\bin\Debug\netcoreapp3.1\ToDoList.BLL.pdb
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.genruntimeconfig.cache
+d:\Sajat\ToDoListRepo\Source\ToDoList.BLL\obj\Debug\netcoreapp3.1\ToDoList.BLL.csproj.AssemblyReference.cache

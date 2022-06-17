@@ -6,7 +6,8 @@ namespace ToDoList.BLL
 {
     public class UpdateItemDTO
     {
-        public string NewDescription { get; set; }
+        public string NewShortDescription { get; set; }
+        public string NewLongDescription { get; set; }
         public ItemState NewState { get; set; }
     }
 }

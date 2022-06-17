@@ -19,7 +19,7 @@ namespace ToDoList.BLL
             ToDoItem newItem = new ToDoItem
             {
                 CreatedAt = System.DateTime.Now,
-                Description = itemData.Description,
+                Description = new ToDoDescription() { ShortDescription = itemData.ShortDescription, LongDescription = itemData.LongDescription },
                 State = ItemState.New
             };
 
@@ -30,12 +30,12 @@ namespace ToDoList.BLL
 
         public async Task<List<ToDoItem>> GetAllItemsAsync()
         {
-            return await context.ToDoItemData.ToListAsync();
+            return await context.ToDoItemData.Include(item => item.Description)/*.ThenInclude()*/.ToListAsync();
         }
 
         public async Task<ToDoItem> GetItemAsync(int id)
         {
-            return await context.ToDoItemData.FindAsync(id);
+            return await context.ToDoItemData.Include(item => item.Description).FirstAsync(x => x.Id == id);
         }
 
         public async Task<ToDoItem> UpdateItemAsync(int id, UpdateItemDTO updateItemDTO)
@@ -43,7 +43,8 @@ namespace ToDoList.BLL
             var itemToUpdate = await GetItemAsync(id);
             if (itemToUpdate == null)
                 return null;
-            itemToUpdate.Description = updateItemDTO.NewDescription;
+            itemToUpdate.Description.ShortDescription = updateItemDTO.NewShortDescription;
+            itemToUpdate.Description.LongDescription = updateItemDTO.NewLongDescription;
             itemToUpdate.State = updateItemDTO.NewState;
             await context.SaveChangesAsync();
 
